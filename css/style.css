@@ -1,0 +1,11 @@
+.flex{
+    display: flex;
+    padding: 20px;
+}
+.titu {
+    font-size: 40px;
+ }
+
+.m{
+    word-spacing: 30px;
+}
