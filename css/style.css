@@ -1,11 +1,40 @@
-.flex{
+.header{
     display: flex;
     padding: 20px;
 }
-.titu {
-    font-size: 40px;
+.header__logo{
+    font-size: 25px;
+    text-align: center;
+    margin-left: 170px;
+    font-weight: bold;
  }
 
-.m{
-    word-spacing: 30px;
+.buttons__item-2{
+ font-weight: bold;
+    font-size: 20px;
 }
+.buttons{
+    word-spacing: 40px;
+    margin-left: 60px;
+}
+.buttons__item-3{
+    margin-left: 770px;
+    font-size: 20px;
+    font-weight: bold;
+    border: black solid;
+    color: white;
+    background-color: #000000;
+    border-radius: 20px;
+    padding: 10px 25px;
+
+}
+.header__logo-item{
+    font-size: 15px;
+
+}
+.buttons__item-1{
+    border: green solid 2px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
