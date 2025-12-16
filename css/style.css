@@ -1,3 +1,4 @@
+
 .header{
     display: flex;
     padding: 20px;
@@ -9,32 +10,31 @@
     font-weight: bold;
  }
 
-.buttons__item-2{
- font-weight: bold;
-    font-size: 20px;
-}
-.buttons{
+
+.links{
     word-spacing: 40px;
     margin-left: 60px;
-}
-.buttons__item-3{
-    margin-left: 770px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
-    border: black solid;
-    color: white;
-    background-color: #000000;
-    border-radius: 20px;
-    padding: 10px 25px;
-
 }
+.links__item{
+    all: unset;
+}
+
+
+
 .header__logo-item{
     font-size: 15px;
-
 }
-.buttons__item-1{
-    border: green solid 2px;
+.active{
+    border: solid green 2px;
+}
+.button{
+    background-color: black;
+    border-radius: 30px;
+    font-size: 15px;
+    color: white;
+    margin-left: 790px;
+    padding: 10px 30px 10px 30px;
     font-weight: bold;
-    font-size: 20px;
 }
-
