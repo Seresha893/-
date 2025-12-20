@@ -1,4 +1,7 @@
-
+body{
+    max-width: 1920px;
+    padding: 0 15px;
+}
 .header{
     display: flex;
     padding: 20px;
@@ -9,7 +12,13 @@
     margin-left: 170px;
     font-weight: bold;
  }
+@media (max-width: 1920px) {
 
+    }
+
+@media (max-width: 330px) {
+
+}
 
 .links{
     word-spacing: 40px;
@@ -34,7 +43,7 @@
     border-radius: 30px;
     font-size: 15px;
     color: white;
-    margin-left: 790px;
+    margin-left: auto;
     padding: 10px 30px 10px 30px;
     font-weight: bold;
 }
