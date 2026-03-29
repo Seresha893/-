@@ -1,0 +1,42 @@
+body{
+    padding: 0 15px;
+}
+.header{
+    display: flex;
+    padding: 20px;
+}
+.header__logo{
+    font-size: 25px;
+    text-align: center;
+    margin-left: 170px;
+    font-weight: bold;
+ }
+
+
+.links{
+    word-spacing: 40px;
+    margin-left: 60px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.links__item{
+    all: unset;
+}
+
+
+
+.header__logo-item{
+    font-size: 15px;
+}
+.active{
+    border: solid green 2px;
+}
+.button{
+    background-color: black;
+    border-radius: 30px;
+    font-size: 15px;
+    color: white;
+    margin-left: auto;
+    padding: 10px 30px 10px 30px;
+    font-weight: bold;
+}
